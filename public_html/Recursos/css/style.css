@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/03/2019, 10:22:38 PM
+    Author     : CAMILO
+*/
+.divPrincipal{
+    width: 100vw;
+    height: 100vh;
+}
+.divA{
+    width: 33vw;
+    height: 50vh;
+    background: green;
+}
+.divB{
+    bottom: 50vh;
+    left: 33vw;
+    width: 33vw;
+    height: 50vh;
+    background: crimson;
+    position: relative;
+}
+.divC{
+    bottom: 100vh;
+    left: 66vw;
+    width: 33vw;
+    height: 50vh;
+    background: yellow;
+    position: relative;
+}
+.divD{
+    bottom: 100vh;
+    left: 0vw;
+    width: 33vw;
+    height: 50vh;
+    background: magenta;
+    position: relative;
+}
+.divE{
+    bottom: 150vh;
+    left: 33vw;
+    width: 33vw;
+    height: 50vh;
+    background: salmon;
+    position: relative;
+}
+.divF{
+    bottom: 200vh;
+    left: 66vw;
+    width: 33vw;
+    height: 50vh;
+    background: gray;
+    position: relative;
+}
+.button1 {
+    background: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: whitesmoke; 
+    color: black;
+}
+.button2 {
+    background: #f44336;;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: whitesmoke; 
+    color: black;
+}
