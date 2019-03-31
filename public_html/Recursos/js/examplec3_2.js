@@ -4,7 +4,6 @@
 //http://c3js.org/examples.html
 
 
-
 /*Se define una variable chart, la cual contiene el id del div contenedor y los 
  * datos que tendra la grafica que se generara (datos + nombre columnas), el 
  * tipo es grafico de barras, se indica el grosor de la barra*/
@@ -15,16 +14,23 @@ var chart = c3.generate({
             ['Data A - original', 30, 200, 100, 400, 150, 250, 220],
             ['Data B - original', 130, 100, 140, 200, 150, 50, 70]
         ],
-        selection: {
-      grouped: true
-    },
-       /* onclick: function(i) {
-            console.log(i);          
-                console.log(chart.columns[1].);
-                //usuarios.push([, datos[i].correo, datos[i].nacimiento]);            
-        },*/
-        //onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-        //onmouseout: function (d, i) { console.log("onmouseout", d, i); },
+        onclick: function(i) {
+            //console.log(i.x);
+            //Mostrar solo un value en las otras graficas            
+            datosSelect(i);
+
+            //cargar solo una data (data 1 o data 2)
+            if (i.id == 'Data A - original') {
+                chart.hide(['Data B - original']);
+                chart.show(['Data A - original']);
+            } else if (i.id == 'Data B - original') {
+                chart.hide(['Data A - original']);
+                chart.show(['Data B - original']);
+            } else {
+                chart.show(['Data A - original']);
+                chart.show(['Data B - original']);
+            }
+        },
         type: 'bar'
 
     },
@@ -35,6 +41,15 @@ var chart = c3.generate({
     }
 });
 
+/**************************************************************
+ Autor: JULIAN CAMILO HENAO
+ Fecha: 30/03/2019 22:08
+ Descripción: Datos de inicio de la grafia de barras 2
+ @returns Arreglo con lo nuevos datos
+ 
+ MODIFICACIONES:
+ FECHA               AUTOR                   DESCRIPCION
+ *************************************************************/
 var chart = c3.generate({
     bindto: '#chartB',
     data: {
@@ -52,7 +67,14 @@ var chart = c3.generate({
 });
 
 
-//dATOS DE INCIO DEL pie
+/**************************************************************
+ Autor: JULIAN CAMILO HENAO
+ Fecha: 30/03/2019 22:08
+ Descripción: Datos de inicio del pie
+ 
+ MODIFICACIONES:
+ FECHA               AUTOR                   DESCRIPCION
+ *************************************************************/
 var chart = c3.generate({
     bindto: '#chartP',
     data: {
@@ -161,6 +183,86 @@ function cargarDataset2() {
     });
 }
 
+/**************************************************************
+ Autor: JULIAN CAMILO HENAO
+ Fecha: 30/03/2019 22:08
+ Descripción: FunciÓn que permite cambiar los datos de la graficas de acuerdo a lo seleccionado en la grafica de barras 1
+ @returns Arreglo con lo nuevos datos
+ 
+ MODIFICACIONES:
+ FECHA               AUTOR                   DESCRIPCION
+ *************************************************************/
+function datosSelect(i) {
+    /** Opc 1
+     * var chart = c3.generate({
+     bindto: '#chartB',
+     data: {
+     columns: [
+     ['Data', i.value]
+     ],
+     type: 'bar'
+     },
+     bar: {
+     width: {
+     ratio: 0.5
+     }
+     }
+     });*/
+
+    /**
+     * Opc 2 
+     */
+    if (i.id == 'Data A - original') {
+        var chart = c3.generate({
+            bindto: '#chartB',
+            data: {
+                columns: [
+                    ['Data A - original', 30, 200, 100, 400, 150, 250, 220]
+                            // ['Data B - original', 130, 100, 140, 200, 150, 50, 70]
+                ],
+                type: 'bar',
+                colors: {
+                    'Data A - original': '#74DF00',
+                },
+                color: function(color, d) {
+                    // d will be 'id' when called for legends
+                    return d.id && d.id === 'Data A - original' ? d3.rgb(color).darker(d.value / 150) : color;
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 0.5
+                }
+            }
+        });
+    } else if (i.id == 'Data B - original') {
+        var chart = c3.generate({
+            bindto: '#chartB',
+            data: {
+                columns: [
+                    //['Data A - original', 30, 200, 100, 400, 150, 250, 220]
+                    ['Data B - original', 130, 100, 140, 200, 150, 50, 70]
+                ],
+                type: 'bar',
+                colors: {
+                    'Data B - original': '#01DFD7',
+                },
+                color: function(color, d) {
+                    // d will be 'id' when called for legends
+                    return d.id && d.id === 'Data B - original' ? d3.rgb(color).darker(d.value / 150) : color;
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 0.5
+                }
+            }
+        });
+    }
+
+}
+
+
 /*Se pueden agregar datos a la grafica de barras*/
 function agregarDatos() {
     chart.load({
@@ -187,8 +289,6 @@ var chart2 = c3.generate({
         type: 'spline'
     }
 });
-
-
 
 
 
