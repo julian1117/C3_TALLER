@@ -1,0 +1,673 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "5r3g-zv5z",
+      "name" : "Trafico Portuario Marítimo En Colombia JUN-2016",
+      "attribution" : "Superintendencia de Puertos y Transporte",
+      "attributionLink" : "http://www.supertransporte.gov.co",
+      "averageRating" : 0,
+      "category" : "Transporte",
+      "createdAt" : 1475601383,
+      "description" : "Datos en toneladas respecto al movimiento portuario marítimo hasta junio de 2016",
+      "displayType" : "table",
+      "downloadCount" : 34,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1481831245,
+      "licenseId" : "CC_40_BY_SA",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 24311482,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1475601697,
+      "publicationGroup" : 13508544,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1475601390,
+      "rowsUpdatedBy" : "ud2r-97qc",
+      "tableId" : 13508544,
+      "totalTimesRated" : 0,
+      "viewCount" : 120,
+      "viewLastModified" : 1484584709,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 272029934,
+        "name" : "SOCIEDAD PORTUARIA               ",
+        "dataTypeName" : "text",
+        "fieldName" : "sociedad_portuaria",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 38762415,
+        "width" : 496,
+        "cachedContents" : {
+          "largest" : "ZONA PORTUARIA TUMACO",
+          "non_null" : 50,
+          "null" : 0,
+          "top" : [ {
+            "item" : "COMPAÑIA DE PUERTOS ASOCIADOS S.A.",
+            "count" : 20
+          }, {
+            "item" : "VOPAK S.A.",
+            "count" : 19
+          }, {
+            "item" : "ZONA PORTUARIA TUMACO",
+            "count" : 18
+          }, {
+            "item" : "CENIT TRANSPORTE Y LOGISTICA DE HIDROCARBUROS S.A.S",
+            "count" : 17
+          }, {
+            "item" : "ZONA PORTUARIA RIO MAGDALENA",
+            "count" : 16
+          }, {
+            "item" : "EMPRESA COLOMBIANA DE PETROLEOS",
+            "count" : 15
+          }, {
+            "item" : "TOTAL",
+            "count" : 14
+          } ],
+          "smallest" : "ALGRANEL S.A."
+        },
+        "format" : { }
+      }, {
+        "id" : 272029935,
+        "name" : "IMPO",
+        "dataTypeName" : "number",
+        "fieldName" : "impo",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762416,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "3497215",
+          "non_null" : 47,
+          "average" : "223226.5106382979",
+          "null" : 3,
+          "top" : [ {
+            "item" : "541517",
+            "count" : 20
+          }, {
+            "item" : "39872",
+            "count" : 19
+          }, {
+            "item" : "16910",
+            "count" : 18
+          }, {
+            "item" : "10500",
+            "count" : 17
+          }, {
+            "item" : "107513",
+            "count" : 16
+          }, {
+            "item" : "16637",
+            "count" : 15
+          }, {
+            "item" : "344088",
+            "count" : 14
+          }, {
+            "item" : "5997",
+            "count" : 13
+          }, {
+            "item" : "989282",
+            "count" : 12
+          }, {
+            "item" : "40833",
+            "count" : 11
+          }, {
+            "item" : "11833",
+            "count" : 10
+          }, {
+            "item" : "0",
+            "count" : 9
+          }, {
+            "item" : "155722",
+            "count" : 8
+          }, {
+            "item" : "780894",
+            "count" : 7
+          }, {
+            "item" : "1134536",
+            "count" : 6
+          }, {
+            "item" : "4120",
+            "count" : 5
+          }, {
+            "item" : "62613",
+            "count" : 4
+          }, {
+            "item" : "626880",
+            "count" : 3
+          }, {
+            "item" : "9177",
+            "count" : 2
+          }, {
+            "item" : "31448",
+            "count" : 1
+          } ],
+          "smallest" : "0",
+          "sum" : "10491646"
+        },
+        "format" : { }
+      }, {
+        "id" : 272029936,
+        "name" : "EXPO",
+        "dataTypeName" : "number",
+        "fieldName" : "expo",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762417,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "12368657",
+          "non_null" : 47,
+          "average" : "789488.7446808511",
+          "null" : 3,
+          "top" : [ {
+            "item" : "271072",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "44538",
+            "count" : 18
+          }, {
+            "item" : "16727",
+            "count" : 17
+          }, {
+            "item" : "18386",
+            "count" : 16
+          }, {
+            "item" : "131415",
+            "count" : 15
+          }, {
+            "item" : "60006",
+            "count" : 14
+          }, {
+            "item" : "290284",
+            "count" : 13
+          }, {
+            "item" : "87155",
+            "count" : 12
+          }, {
+            "item" : "75225",
+            "count" : 11
+          }, {
+            "item" : "127904",
+            "count" : 10
+          }, {
+            "item" : "594867",
+            "count" : 9
+          }, {
+            "item" : "119919",
+            "count" : 8
+          }, {
+            "item" : "10693",
+            "count" : 7
+          }, {
+            "item" : "5003",
+            "count" : 6
+          }, {
+            "item" : "72952",
+            "count" : 5
+          }, {
+            "item" : "208409",
+            "count" : 4
+          }, {
+            "item" : "58445",
+            "count" : 3
+          }, {
+            "item" : "119445",
+            "count" : 2
+          }, {
+            "item" : "4892406",
+            "count" : 1
+          } ],
+          "smallest" : "0",
+          "sum" : "37105971"
+        },
+        "format" : { }
+      }, {
+        "id" : 272029937,
+        "name" : "IMPO + EXPO",
+        "dataTypeName" : "number",
+        "fieldName" : "impo_expo",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762418,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "15865872",
+          "non_null" : 48,
+          "average" : "991617",
+          "null" : 2,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "100057",
+            "count" : 19
+          }, {
+            "item" : "15865872",
+            "count" : 18
+          } ],
+          "smallest" : "0",
+          "sum" : "47597616"
+        },
+        "format" : { }
+      }, {
+        "id" : 272029938,
+        "name" : "CABOT",
+        "dataTypeName" : "number",
+        "fieldName" : "cabot",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762419,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "193753",
+          "non_null" : 48,
+          "average" : "12109.5625",
+          "null" : 2,
+          "top" : [ {
+            "item" : "1266",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "239",
+            "count" : 18
+          }, {
+            "item" : "192248",
+            "count" : 17
+          }, {
+            "item" : "11230",
+            "count" : 16
+          }, {
+            "item" : "1472",
+            "count" : 15
+          }, {
+            "item" : "7262",
+            "count" : 14
+          }, {
+            "item" : "165881",
+            "count" : 13
+          }, {
+            "item" : "6341",
+            "count" : 12
+          }, {
+            "item" : "62",
+            "count" : 11
+          }, {
+            "item" : "193753",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "581259"
+        },
+        "format" : { }
+      }, {
+        "id" : 272029939,
+        "name" : "FLUVIAL",
+        "dataTypeName" : "number",
+        "fieldName" : "fluvial",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762420,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "11362",
+          "non_null" : 48,
+          "average" : "710.125",
+          "null" : 2,
+          "top" : [ {
+            "item" : "11362",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          } ],
+          "smallest" : "0",
+          "sum" : "34086"
+        },
+        "format" : { }
+      }, {
+        "id" : 272029940,
+        "name" : "TRANSB",
+        "dataTypeName" : "number",
+        "fieldName" : "transb",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762421,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "109136",
+          "non_null" : 48,
+          "average" : "6821",
+          "null" : 2,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "109133",
+            "count" : 19
+          }, {
+            "item" : "93813",
+            "count" : 18
+          }, {
+            "item" : "15320",
+            "count" : 17
+          }, {
+            "item" : "3",
+            "count" : 16
+          }, {
+            "item" : "109136",
+            "count" : 15
+          } ],
+          "smallest" : "0",
+          "sum" : "327408"
+        },
+        "format" : { }
+      }, {
+        "id" : 272029941,
+        "name" : "TRANSITO INTERNAL",
+        "dataTypeName" : "number",
+        "fieldName" : "transito_internal",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762422,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "1479184",
+          "non_null" : 48,
+          "average" : "92449",
+          "null" : 2,
+          "top" : [ {
+            "item" : "2308",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "1349935",
+            "count" : 18
+          }, {
+            "item" : "24709",
+            "count" : 17
+          }, {
+            "item" : "191305",
+            "count" : 16
+          }, {
+            "item" : "1133921",
+            "count" : 15
+          }, {
+            "item" : "126941",
+            "count" : 14
+          }, {
+            "item" : "1479184",
+            "count" : 13
+          } ],
+          "smallest" : "0",
+          "sum" : "4437552"
+        },
+        "format" : { }
+      }, {
+        "id" : 272029942,
+        "name" : "TRANSITO RIA",
+        "dataTypeName" : "number",
+        "fieldName" : "transito_ria",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762423,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "25058",
+          "non_null" : 48,
+          "average" : "1566.125",
+          "null" : 2,
+          "top" : [ {
+            "item" : "19197",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "5854",
+            "count" : 18
+          }, {
+            "item" : "7",
+            "count" : 17
+          }, {
+            "item" : "25058",
+            "count" : 16
+          } ],
+          "smallest" : "0",
+          "sum" : "75174"
+        },
+        "format" : { }
+      }, {
+        "id" : 272029943,
+        "name" : "TOTAL TRAFICO PORTUARIO",
+        "dataTypeName" : "number",
+        "fieldName" : "total_trafico_portuario",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 38762424,
+        "width" : 376,
+        "cachedContents" : {
+          "largest" : "17684365",
+          "non_null" : 48,
+          "average" : "1105272.791666667",
+          "null" : 2,
+          "top" : [ {
+            "item" : "509800",
+            "count" : 20
+          }, {
+            "item" : "367675",
+            "count" : 19
+          }, {
+            "item" : "100057",
+            "count" : 18
+          }, {
+            "item" : "126941",
+            "count" : 17
+          }, {
+            "item" : "17684365",
+            "count" : 16
+          } ],
+          "smallest" : "62",
+          "sum" : "53053094"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution | Share Alike 4.0 International",
+        "logoUrl" : "images/licenses/cc30bysa.png",
+        "termsLink" : "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Información de la Entidad" : {
+            "Municipio" : "Bogotá, d.c.",
+            "Nombre de la Entidad" : "Superintendencia de Puertos y Transporte",
+            "Orden" : "Nacional",
+            "Sector" : "Transporte",
+            "Autor" : "Superintendencia de Puertos y Transporte",
+            "Departamento" : "Bogotá D.C"
+          },
+          "Información de Datos" : {
+            "Cobertura Geográfica" : "Nacional",
+            "Idioma" : "Español",
+            "Frecuencia de Actualización" : "Anual",
+            "Fecha Emisión (dd/mm/aaaa)" : "04/10/2016",
+            "URL Documentación" : "http://www.supertransporte.gov.co",
+            "Fecha Emisión (aaaa-mm-dd)" : "2016-04-10"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Fila",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "ud2r-97qc",
+        "displayName" : "Supertransporte",
+        "profileImageUrlLarge" : "/api/users/ud2r-97qc/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/ud2r-97qc/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/ud2r-97qc/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "Supertransporte",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ud2r-97qc",
+        "displayName" : "Supertransporte",
+        "profileImageUrlLarge" : "/api/users/ud2r-97qc/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/ud2r-97qc/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/ud2r-97qc/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "Supertransporte",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "supertransporte", "superintendencia", "trafico", "puertos", "portuario", "mar", "maritimo" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "DA0352E0-8E86-402E-985C-08900EC2AE74", 1, 1475601386, "975579", 1475601386, "975579", null, "ZONA PORTUARIA BARRANQUILLA ", "541517", "271072", "812589", "1266", "11362", "0", "2308", "19197", "846722" ]
+, [ 2, "15AF7864-23A4-43EA-B91D-C6A887C68C4D", 2, 1475601386, "975579", 1475601386, "975579", null, "BARRANQUILLA INTERNACIONAL TERMINAL COMPANY S.A.", "39872", "0", "39872", "0", "0", "0", "0", "0", "39872" ]
+, [ 3, "4F284C2A-066F-4888-B986-9BE73321C850", 3, 1475601386, "975579", 1475601386, "975579", null, "COMPAÑIA DE PUERTOS ASOCIADOS S.A.", "16910", "44538", "61448", "0", "0", "0", "0", "0", "61448" ]
+, [ 4, "B699D599-831C-44A3-A4EC-F7CC36077CEE", 4, 1475601386, "975579", 1475601386, "975579", null, "MONOMEROS COLOMBO VENEZOLANOS S.A", "10500", null, "10500", "0", "0", "0", "0", "0", "10500" ]
+, [ 5, "2AF6D368-B345-4968-9D49-5A0524CDAE6E", 5, 1475601386, "975579", 1475601386, "975579", null, "PALERMO SOCIEDAD PORTUARIA S.A.", "107513", "16727", "124239", "0", "0", "0", "0", "0", "124239" ]
+, [ 6, "62E91154-F1F5-4FFB-9657-4027C5EBAF06", 6, 1475601386, "975579", 1475601386, "975579", null, "SOCIEDAD PORTUARIA PORTMAGDALENA", "16637", "18386", "35023", "0", "0", "0", "0", "0", "35023" ]
+, [ 7, "26286E5A-E192-4B2A-B50B-E221EB7F21F9", 7, 1475601386, "975579", 1475601386, "975579", null, "SPR BARRANQUILLA", "344088", "131415", "475503", "1266", "11362", "0", "2308", "0", "490439" ]
+, [ 8, "B304F522-6729-43F0-94B4-332EFEBF8887", 8, 1475601386, "975579", 1475601386, "975579", null, "VOPAK S.A.", "5997", "60006", "66003", "0", "0", "0", "0", "19197", "85200" ]
+, [ 9, "5087EF2A-F0F1-4478-8BD6-F13C9353A851", 9, 1475601386, "975579", 1475601386, "975579", null, "ZONA PORTUARIA BUENAVENTURA", "989282", "290284", "1279566", "239", "0", "109133", "0", "5854", "1394792" ]
+, [ 10, "D8A21EB8-CAAA-4E92-B769-755C555E4873", 10, 1475601386, "975579", 1475601386, "975579", null, "COMPAÑIA DE PUERTOS ASOCIADOS S.A.", "40833", "0", "40833", "0", "0", "0", "0", "0", "40833" ]
+, [ 11, "6CAE46F5-14F2-4FB6-BB37-3B2F7342BE5C", 11, 1475601386, "975579", 1475601386, "975579", null, "GRUPO PORTUARIO S.A.", "11833", "87155", "98988", "0", "0", "0", "0", "0", "98988" ]
+, [ 12, "2D55A876-6993-4354-BC9B-0DE4E2863142", 12, 1475601386, "975579", 1475601386, "975579", null, "LIZCAMAR LTDA.", "0", "0", "0", "239", "0", "0", "0", "0", "239" ]
+, [ 13, "D0A03FE3-D4DC-4DC1-855F-C2445AE1A8E6", 13, 1475601386, "975579", 1475601386, "975579", null, "S.P. TERMINAL DE CONTENEDORES DE", "155722", "75225", "230947", "0", "0", "93813", "0", "0", "324760" ]
+, [ 14, "099E97B3-D3EB-4B48-8B56-49222A41B38A", 14, 1475601386, "975579", 1475601386, "975579", null, "SPR BUENAVENTURA", "780894", "127904", "908798", "0", "0", "15320", "0", "5854", "929972" ]
+, [ 15, "253CC231-E16C-4D1C-A205-7615E4119E60", 15, 1475601386, "975579", 1475601386, "975579", null, "ZONA PORTUARIA CARTAGENA", "1134536", "594867", "1729402", "192248", "0", "0", "1349935", "7", "3271592" ]
+, [ 16, "49056DE6-CDB1-42DC-AD20-6AF13D1115A0", 16, 1475601386, "975579", 1475601386, "975579", null, "ALGRANEL S.A.", "4120", "0", "4120", "0", "0", "0", "0", "0", "4120" ]
+, [ 17, "338CD4B3-81B6-44C2-8BBE-5F551184307D", 17, 1475601386, "975579", 1475601386, "975579", null, "ARGOS S.A.", null, "119919", "119919", "0", "0", "0", "0", "0", "119919" ]
+, [ 18, "374500EC-ACF8-4B6B-968E-981ADB431A4C", 18, 1475601386, "975579", 1475601386, "975579", null, "COMPAÑIA DE PUERTOS ASOCIADOS S.A.", "62613", "10693", "73306", "11230", "0", "0", "24709", "7", "109252" ]
+, [ 19, "B2B749B5-736F-477F-89BB-04CE6B09988D", 19, 1475601386, "975579", 1475601386, "975579", null, "EMPRESA COLOMBIANA DE PETROLEOS", "626880", "0", "626880", "0", "0", "0", "0", "0", "626880" ]
+, [ 20, "C31C4A6E-0483-4094-AB5A-91A7763D3CF7", 20, 1475601386, "975579", 1475601386, "975579", null, "OILTANKING COLOMBIA S.A.", "9177", "0", "9177", "0", "0", "0", "0", "0", "9177" ]
+, [ 21, "0F4C45E8-19ED-4A68-92DA-7ADE86CE237F", 21, 1475601386, "975579", 1475601386, "975579", null, "PUERTO BUENAVISTA S.A.", "31448", "5003", "36451", "1472", "0", "0", "0", "0", "37923" ]
+, [ 22, "3A9E759E-EF79-40E6-B0DF-C7436BC9CBBB", 22, 1475601386, "975579", 1475601386, "975579", null, "PUERTO DE MAMONAL S.A.", "6723", "72952", "79675", "0", "0", "0", "0", "0", "79675" ]
+, [ 23, "AB74F22A-62C3-4803-9AAA-8AF9A5F7E5C1", 23, 1475601386, "975579", 1475601386, "975579", null, "SOCIEDAD PORTUARIA DE LA ZONA", "0", "0", "0", "7262", "0", "0", "0", "0", "7262" ]
+, [ 24, "762E507D-D192-48C4-8433-4567FD06E018", 24, 1475601386, "975579", 1475601386, "975579", null, "ATLANTICA S.A.", null, null, null, null, null, null, null, null, null ]
+, [ 25, "E3A9DA15-0D9A-4825-8B74-6FF716FC661E", 25, 1475601386, "975579", 1475601386, "975579", null, "SOCIEDAD PORTUARIA OLEFINAS Y DERIVADOS S.A.", "53606", "0", "53606", "0", "0", "0", "0", "0", "53606" ]
+, [ 26, "A32B212D-B085-4A20-84C3-075071A08501", 26, 1475601386, "975579", 1475601386, "975579", null, "SOCIEDAD PORTUARIA PUERTO BAHIA S.A.", "90395", "208409", "298804", "165881", "0", "0", "0", "0", "464684" ]
+, [ 27, "12246A2F-2B5E-4C19-B7E8-4FBD22E3A416", 27, 1475601386, "975579", 1475601386, "975579", null, "SPR CARTAGENA", "83386", "58445", "141831", "0", "0", "0", "191305", "0", "333136" ]
+, [ 28, "BD2AA2C5-0C95-4BE9-A8CB-FFADCA07C288", 28, 1475601386, "975579", 1475601386, "975579", null, "TERMINAL DE CONTENEDORES DE", "164411", "119445", "283857", "0", "0", "0", "1133921", "0", "1417778" ]
+, [ 29, "B1BFF199-A866-432C-93AD-DA35FE9CA2C3", 29, 1475601386, "975579", 1475601386, "975579", null, "CARTAGENA", null, null, null, null, null, null, null, null, null ]
+, [ 30, "C48AD49C-8947-413A-AE5F-EC2398122606", 30, 1475601386, "975579", 1475601386, "975579", null, "TRANSMARSYP", "0", "0", "0", "6341", "0", "0", "0", "0", "6341" ]
+, [ 31, "E1359CF3-7601-4C6C-83BD-551363D8BE00", 31, 1475601386, "975579", 1475601386, "975579", null, "TRANSPETROL S.A.", "0", "0", "0", "62", "0", "0", "0", "0", "62" ]
+, [ 32, "46299D73-B6CB-40D3-945F-CC8FDD11A8BC", 32, 1475601386, "975579", 1475601386, "975579", null, "VOPAK S.A.", "1776", "0", "1776", "0", "0", "0", "0", "0", "1776" ]
+, [ 33, "E129B729-54DE-450E-A754-BFCB05C60E92", 33, 1475601386, "975579", 1475601386, "975579", null, "ZONA PORTUARIA CIENAGA", "0", "4892406", "4892406", "0", "0", "0", "0", "0", "4892406" ]
+, [ 34, "98B9DC07-A39F-4843-8A4A-0ADAF7FDD8F9", 34, 1475601386, "975579", 1475601386, "975579", null, "AMERICAN PORT COMPANY", "0", "2131631", "2131631", "0", "0", "0", "0", "0", "2131631" ]
+, [ 35, "06D5F995-8A68-4CD1-B995-F913F3A07AB6", 35, 1475601386, "975579", 1475601386, "975579", null, "SOCIEDAD PORTURIA PUERTO NUEVO S.A.", "0", "2760776", "2760776", "0", "0", "0", "0", "0", "2760776" ]
+, [ 36, "13167A30-1F14-4BDB-A4E9-EC4F43E5F332", 36, 1475601386, "975579", 1475601386, "975579", null, "ZONA PORTUARIA COVEÑAS", "133394", "3070141", "3203535", "0", "0", "0", "0", "0", "3203535" ]
+, [ 37, "A2ED07D9-21A3-4D47-9FEC-ED356C864AE9", 37, 1475601386, "975579", 1475601386, "975579", null, "CENIT TRANSPORTE Y LOGISTICA DE HIDROCARBUROS S.A.S", "133394", "1723725", "1857119", "0", "0", "0", "0", "0", "1857119" ]
+, [ 38, "4C960B6D-3E50-4719-89FD-E5620AC30BFE", 38, 1475601386, "975579", 1475601386, "975579", null, "COMPAÑIA DE PUERTOS ASOCIADOS S.A.", "0", "3008", "3008", "0", "0", "0", "0", "0", "3008" ]
+, [ 39, "5E2080E6-AE68-4C69-B268-82EE1DA7A4B3", 39, 1475601386, "975579", 1475601386, "975579", null, "OLEODUCTO CENTRAL S.A.", "0", "1343408", "1343408", "0", "0", "0", "0", "0", "1343408" ]
+, [ 40, "9B714D31-2841-4F76-BE59-579A408E3137", 40, 1475601386, "975579", 1475601386, "975579", null, "PUERTO BOLIVAR", "8833", "2962012", "2970845", "0", "0", "0", "0", "0", "2970845" ]
+, [ 41, "0D2C3788-FBA1-4052-B91D-B1C9030B6D0E", 41, 1475601386, "975579", 1475601386, "975579", null, "S.P. DE LA PENINSULA S.A. PENSOPORT S.A.", "277", "0", "277", "0", "0", "0", "0", "0", "277" ]
+, [ 42, "67BCB6B3-6BFA-4208-A421-371A3839BCDC", 42, 1475601386, "975579", 1475601386, "975579", null, "SOCIEDAD CERREJON ZONA NORTE S.A.", "8556", "2962012", "2970568", "0", "0", "0", "0", "0", "2970568" ]
+, [ 43, "3F988678-B465-48EE-AC2B-6A58DF0A64E0", 43, 1475601386, "975579", 1475601386, "975579", null, "ZONA PORTUARIA SANTA MARTA", "689654", "187818", "877472", "0", "0", "3", "0", "0", "877475" ]
+, [ 44, "608607A3-9F5A-42EB-9409-0C593DC67663", 44, 1475601386, "975579", 1475601386, "975579", null, "CENIT TRANSPORTE Y LOGISTICA DE", "509800", "0", "509800", "0", "0", "0", "0", "0", "509800" ]
+, [ 45, "495778F6-6BF2-4857-AC38-8157E4119A9A", 45, 1475601386, "975579", 1475601386, "975579", null, "SPR SANTA MARTA", "179854", "187818", "367672", "0", "0", "3", "0", "0", "367675" ]
+, [ 46, "5616D288-1A64-4266-86DC-37A17CB0C167", 46, 1475601386, "975579", 1475601386, "975579", null, "ZONA PORTUARIA TUMACO", "0", "100057", "100057", "0", "0", "0", "0", "0", "100057" ]
+, [ 47, "1F9E836B-A2B2-4932-8E4D-317EB58FC379", 47, 1475601386, "975579", 1475601386, "975579", null, "CENIT TRANSPORTE Y LOGISTICA DE HIDROCARBUROS S.A.S", "0", "100057", "100057", "0", "0", "0", "0", "0", "100057" ]
+, [ 48, "C31E3952-FD95-40A1-A787-1A38FC7D4592", 48, 1475601386, "975579", 1475601386, "975579", null, "ZONA PORTUARIA RIO MAGDALENA", "0", "0", "0", "0", "0", "0", "126941", "0", "126941" ]
+, [ 49, "9A20EB0F-3972-409F-ADB6-D66EE24196C5", 49, 1475601386, "975579", 1475601386, "975579", null, "EMPRESA COLOMBIANA DE PETROLEOS", "0", "0", "0", "0", "0", "0", "126941", "0", "126941" ]
+, [ 50, "179D7AEA-E631-47CD-AA04-F530666CDA5A", 50, 1475601386, "975579", 1475601386, "975579", null, "TOTAL", "3497215", "12368657", "15865872", "193753", "11362", "109136", "1479184", "25058", "17684365" ]
+ ]
+}

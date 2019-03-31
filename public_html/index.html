@@ -10,26 +10,28 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="Recursos/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="Recursos/Framework/c3-0.4.17/c3.css" rel="stylesheet" type="text/css"/>
+        <script src="Recursos/Framework/c3-0.4.17/bower_components/d3/d3.min.js" type="text/javascript"></script>
+        <script src="Recursos/Framework/c3-0.4.17/c3.min.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="divPrincipal">
             <div class="divA">
-                CAMILO
+                <div id="chart"></div>
             </div>
-            <div class="divB">
-                DANIELA
+            <div class="divB">                
+                <div id="chartB"></div>            
             </div>
             <div class="divC">
                 LAURA 
             </div>
-            <div class="divD">
-                LAURA 
+            <div class="divD">                
+                <div id="chartP"></div>        
             </div>
             <div class="divE">
                 LAURA 
             </div>
             <div class="divF">
-                6
                 <input class="button1" type="button" value="Datos 1" onclick="cargarDataset1();"> 
                 <input class="button2" type="button" value="Datos 2" onclick="cargarDataset2();"> 
             </div>
@@ -37,4 +39,5 @@ and open the template in the editor.
 
         </div>
     </body>
+    <script src="Recursos/js/examplec3_2.js" type="text/javascript"></script>
 </html>
