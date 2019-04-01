@@ -109,6 +109,20 @@ function cargarDataset1() {
                 ['Datos A - boton 1', 30, 20, 10, 100, 15, 25, 22, 43, 80, 120],
                 ['Datos B - boton 1', 13, 10, 14, 140, 15, 5, 7, 30, 22, 47]
             ],
+            onclick: function(i) {
+                //console.log(i.x);
+                //Mostrar solo un value en las otras graficas            
+                datosBSelect(i);
+
+                //cargar solo una data (data 1 o data 2)
+                if (i.id == 'Datos A - boton 1') {
+                    chartP.hide(['Datos B - boton 1']);
+                    chartP.show(['Datos A - boton 1']);
+                } else if (i.id == 'Datos B - boton 1') {
+                    chartP.hide(['Datos A - boton 1']);
+                    chartP.show(['Datos B - boton 1']);
+                }
+            },
             type: 'bar'
         },
         bar: {
@@ -155,6 +169,20 @@ function cargarDataset2() {
                 ['Datos B - boton 2', 80, 20, 10, 120, 15, 25, 22, 43, 80, 40],
                 ['Datos C - boton 2', 34, 63, 84, 170, 13, 65, 4, 80, 72, 27]
             ],
+            onclick: function(i) {
+                //console.log(i.x);
+                //Mostrar solo un value en las otras graficas            
+                datosCSelect(i);
+
+               //cargar solo una data (data 1 o data 2)
+                if (i.id == 'Datos A - boton 2') {
+                    chartP.hide(['Datos B - boton 2']);
+                    chartP.show(['Datos A - boton 2']);
+                } else if (i.id == 'Datos B - boton 2') {
+                    chartP.hide(['Datos A - boton 2']);
+                    chartP.show(['Datos B - boton 2']);
+                }
+            },
             type: 'bar'
         },
         bar: {
@@ -262,6 +290,185 @@ function datosSelect(i) {
 
 }
 
+/**************************************************************
+ Autor: JULIAN CAMILO HENAO
+ Fecha: 30/03/2019 22:08
+ Descripción: FunciÓn que permite cambiar los datos de la graficas de acuerdo a lo seleccionado en la grafica de barras 1
+ @returns Arreglo con lo nuevos datos
+ 
+ MODIFICACIONES:
+ FECHA               AUTOR                   DESCRIPCION
+ *************************************************************/
+function datosBSelect(i) {
+    /** Opc 1
+     * var chart = c3.generate({
+     bindto: '#chartB',
+     data: {
+     columns: [
+     ['Data', i.value]
+     ],
+     type: 'bar'
+     },
+     bar: {
+     width: {
+     ratio: 0.5
+     }
+     }
+     });*/
+
+    /**
+     * Opc 2 
+     */
+    if (i.id == 'Datos A - boton 1') {
+        var chart = c3.generate({
+            bindto: '#chartB',
+            data: {
+                columns: [
+                    ['Datos A - boton 1', 30, 200, 100, 400, 150, 250, 220]
+                            // ['Data B - original', 130, 100, 140, 200, 150, 50, 70]
+                ],
+                type: 'bar',
+                colors: {
+                    'Data A - original': '#74DF00',
+                },
+                color: function(color, d) {
+                    // d will be 'id' when called for legends
+                    return d.id && d.id === 'Datos A - boton 1' ? d3.rgb(color).darker(d.value / 150) : color;
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 0.5
+                }
+            }
+        });
+    } else if (i.id == 'Datos B - boton 1') {
+        var chart = c3.generate({
+            bindto: '#chartB',
+            data: {
+                columns: [
+                    //['Data A - original', 30, 200, 100, 400, 150, 250, 220]
+                    ['Datos B - boton 1', 130, 100, 140, 200, 150, 50, 70]
+                ],
+                type: 'bar',
+                colors: {
+                    'Data B - original': '#01DFD7',
+                },
+                color: function(color, d) {
+                    // d will be 'id' when called for legends
+                    return d.id && d.id === 'Datos B - boton 1' ? d3.rgb(color).darker(d.value / 150) : color;
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 0.5
+                }
+            }
+        });
+    }
+
+}
+
+/**************************************************************
+ Autor: JULIAN CAMILO HENAO
+ Fecha: 30/03/2019 22:08
+ Descripción: FunciÓn que permite cambiar los datos de la graficas de acuerdo a lo seleccionado en la grafica de barras 1
+ @returns Arreglo con lo nuevos datos
+ 
+ MODIFICACIONES:
+ FECHA               AUTOR                   DESCRIPCION
+ *************************************************************/
+function datosCSelect(i) {
+    /** Opc 1
+     * var chart = c3.generate({
+     bindto: '#chartB',
+     data: {
+     columns: [
+     ['Data', i.value]
+     ],
+     type: 'bar'
+     },
+     bar: {
+     width: {
+     ratio: 0.5
+     }
+     }
+     });*/
+
+    /**
+     * Opc 2 
+     */
+    if (i.id == 'Datos A - boton 2') {
+        var chart = c3.generate({
+            bindto: '#chartB',
+            data: {
+                columns: [
+                    ['Datos A - boton 2', 30, 200, 100, 400, 150, 250, 220]
+                            // ['Data B - original', 130, 100, 140, 200, 150, 50, 70]
+                ],
+                type: 'bar',
+                colors: {
+                    'Data A - original': '#74DF00',
+                },
+                color: function(color, d) {
+                    // d will be 'id' when called for legends
+                    return d.id && d.id === 'Datos A - boton 2' ? d3.rgb(color).darker(d.value / 150) : color;
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 0.5
+                }
+            }
+        });
+    } else if (i.id == 'Datos B - boton 2') {
+        var chart = c3.generate({
+            bindto: '#chartB',
+            data: {
+                columns: [
+                    //['Data A - original', 30, 200, 100, 400, 150, 250, 220]
+                    ['Datos B - boton 2', 130, 100, 140, 200, 150, 50, 70]
+                ],
+                type: 'bar',
+                colors: {
+                    'Data B - original': '#01DFD7',
+                },
+                color: function(color, d) {
+                    // d will be 'id' when called for legends
+                    return d.id && d.id === 'Datos B - boton 2' ? d3.rgb(color).darker(d.value / 150) : color;
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 0.5
+                }
+            }
+        });
+    } else if (i.id == 'Datos C - boton 2') {
+        var chart = c3.generate({
+            bindto: '#chartB',
+            data: {
+                columns: [
+                    ['Datos C - boton 2', 34, 63, 84, 170, 13, 65, 4, 80, 72, 27]
+                ],
+                type: 'bar',
+                colors: {
+                    'Data B - original': '#01DFD7',
+                },
+                color: function(color, d) {
+                    // d will be 'id' when called for legends
+                    return d.id && d.id === 'Datos C - boton 2' ? d3.rgb(color).darker(d.value / 150) : color;
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 0.5
+                }
+            }
+        });
+    }
+
+}
 
 /*Se pueden agregar datos a la grafica de barras*/
 function agregarDatos() {
